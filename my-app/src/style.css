@@ -1,0 +1,138 @@
+/* HTML */
+*{
+  align-content: center;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: .05vh;
+}
+body{
+  margin: 0;
+}
+button:hover{
+  cursor: pointer;
+}
+/* APP CONTAINER */
+.App{
+  background-color: #23252C;
+  padding: 4vh 0;
+}
+.container{
+  background: url("./images/ME.jpeg") no-repeat -5vh 0vh/50vh;
+  border: transparent;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: 0 auto;
+  width: 40vh;
+}
+/* INFO */
+.info--inner-container{
+  background-color: #1A1B21;
+  display: flex;
+  flex-direction: column;
+  margin-top: 45vh;
+  padding-top: 3vh;
+  text-align: center;
+  width: 100%;
+}
+.info--title{
+  margin: 0;
+}
+.info--subtitle1{
+  color: #F3BF99;
+}
+.info--subtitle2{
+  font-size: .75em;
+  margin-top: 1vh;
+}
+/* INFO --> BTNS */
+.info--btns-container{
+  display: flex;
+  padding: 3vh 4vh;
+}
+.info--btns-container > a {
+  margin: 0 auto;
+  text-decoration: none;
+}
+.info--btns-email{
+  border-color: transparent;
+  border-radius: 8px;
+  font-size: 1.75vh;
+  padding: 1vh;
+  text-align: center;
+  width: 13vh;
+}
+.info--btns-email{
+  color: #111 ;
+}
+.btn--email-icon{
+  margin-right: .5vh;
+  width: 1.75vh;
+}
+.info--btns-linkedin{
+  background-color: #5093E2;
+  border-color: transparent;
+  border-radius: 8px;
+  font-size: 1.75vh;
+  padding: 1.05vh;
+  text-align: center;
+  width: 13.5vh;
+}
+.btn--linkedin-icon{
+  margin-right: .5vh;
+  width: 1.6vh;
+}
+/* ABOUT */
+.about--title{
+  margin: 2vh 0 -.75vh 0;
+}
+.about--content{
+  background-color: #1A1B21;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5vh;
+  font-weight: 200;
+  padding: 0 4.5vh;
+  text-align: justify;
+}
+.about--paragraph{
+  hyphens: auto;
+}
+/* INTERESTS */
+.interests--content{
+  background-color: #1A1B21;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5vh;
+  font-weight: 200;
+  padding: 0 4.5vh 4.5vh 4.5vh;
+  text-align: justify;
+}
+.interests--paragraph{
+  hyphens: auto;
+}
+.interests--title{
+  margin: 1vh 0 -.75vh 0;
+}
+/* FOOTER */
+.footer--content{
+  background-color: #161619;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer--content > button{
+  display: flex;
+  margin: 0 1vh;
+  padding: 0;
+  width: 4vh;
+}
+.footer--img{
+  color: white;
+  /* flex-grow: .5; */
+  margin: 1vh 1vh;
+  width: 5vh;
+}
